@@ -34,7 +34,6 @@ const decorateArea = ({ area = document }) => {
   eagerLoad(area, 'img');
 };
 
-/*
 async function loadTarget() {
   // Check for target metadata flag
   const targetMeta = getMetadata('target');
@@ -62,14 +61,7 @@ async function loadTarget() {
     });
   }
 }
-*/
 
-export async function loadPage() {
-  await loadTarget();
-  // DOM updated, decorate as usual
-  await loadArea();
-}
-await loadPage();
 
 
 export async function loadPage() {
