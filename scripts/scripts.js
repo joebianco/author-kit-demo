@@ -1,6 +1,6 @@
 import { loadArea, setConfig, getMetadata } from './ak.js';
 
-const hostnames = ['authorkit.dev'];
+const hostnames = ['target.authorkit.dev'];
 
 const locales = {
   '': { lang: 'en' },
